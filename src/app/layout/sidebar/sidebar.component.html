@@ -1,0 +1,114 @@
+
+    <div class="overlay-mobile-area"></div>
+    <div class="inner">
+        <div class="single-menu-wrapper">
+            <a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="single-menu  openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/01.png" alt="icons">
+                </div>
+                <p>Home</p>
+            </a>
+            <a [routerLink]="['/communityfeed']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/02.png" alt="icons">
+                </div>
+                <p>Community Feed</p>
+            </a>
+            <a [routerLink]="['/communitydetails']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/02.png" alt="icons">
+                </div>
+                <p>Community Details</p>
+            </a>
+            <a [routerLink]="['/managesubscription']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/03.png" alt="icons">
+                </div>
+                <p>Manage Subscription</p>
+            </a>
+        </div>
+        <div class="single-menu-wrapper">
+            <a [routerLink]="['/chatbot']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/04.png" alt="icons">
+                </div>
+                <p>AI Chat Bot</p>
+            </a>
+            <a [routerLink]="['/imagegenerator']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/05.png" alt="icons">
+                </div>
+                <p>Image Generator</p>
+            </a>
+            <a [routerLink]="['/voicegenerator']" routerLinkActive="active" class="single-menu openuptip" flow="right" tooltip="Search">
+                <div class="icon">
+                    <img src="assets/images/icons/06.png" alt="icons">
+                </div>
+                <p>Voice Generate</p>
+            </a>
+        </div>
+        <div class="single-menu-wrapper">
+            <a [routerLink]="['/register']" routerLinkActive="active" class="single-menu">
+                <div class="icon">
+                    <img src="assets/images/icons/07.png" alt="icons">
+                </div>
+                <p>Register</p>
+            </a>
+            <a class="collapse-btn collapsed single-menu" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <div class="icon">
+                    <img src="assets/images/icons/08.png" alt="icons">
+                </div>
+                <p>Settings</p>
+            </a>
+            <div class="collapse" id="collapseExample">
+                <ul class="submenu rts-default-sidebar-list">
+                    <li>
+                        <a [routerLink]="['/faq']" routerLinkActive="active">
+                            <i class="fa-sharp fa-regular fa-user"></i>
+                            <span>FAQ's</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/login']" routerLinkActive="active">
+                            <i class="fa-sharp fa-regular fa-shopping-bag"></i>
+                            <span>log In</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/register']" routerLinkActive="active">
+                            <i class="fa-sharp fa-regular fa-users"></i>
+                            <span>Reset Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/communitydetails']" routerLinkActive="active">
+                            <i class="fa-sharp fa-regular fa-users"></i>
+                            <span>Community Details</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a [routerLink]="['/login']" routerLinkActive="active" class="single-menu" >
+                <div class="icon">
+                    <img src="assets/images/icons/09.png" alt="icons">
+                </div>
+                <p>Logout</p>
+            </a>
+        </div>
+    </div>
+    <div class="bottom-user">
+        <div class="user-wrapper">
+            <img src="assets/images/avatar/02.png" alt="avatar">
+            <div class="info">
+                <h6 class="title">Mack Gok</h6>
+                <a href="#">intellactainet.com</a>
+            </div>
+            <span>Free</span>
+        </div>
+        <div class="pro-upgrade">
+            <button class="rts-btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                <img src="assets/images/icons/14.png" alt="icons">
+                Upgrade To Pro
+            </button>
+        </div>
+    </div>
